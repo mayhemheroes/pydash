@@ -1,0 +1,6 @@
+project: pydash
+target: type-fuzz
+
+cmds:
+  - cmd: /src/mayhem/fuzz_types.py
+    libfuzzer: true
